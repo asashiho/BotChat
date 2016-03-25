@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- アプリの設定 -->
+    <PreferenceCategory android:title="@+string/appConfig" >
+
+        <!-- 対話モード -->
+        <ListPreference
+            android:entries="@array/MODE"
+            android:entryValues="@array/MODE_VALUE"
+            android:key="mode"
+            android:title="@+string/mode" />
+
+        <!-- キャラクタ設定 -->
+        <ListPreference
+            android:entries="@array/CHARACTER"
+            android:entryValues="@array/CHARACTER_VALUE"
+            android:key="character"
+            android:title="@+string/character" />
+
+        <!-- パーソナライズ -->
+        <SwitchPreference
+            android:key="personalize"
+            android:switchTextOff="off"
+            android:switchTextOn="on"
+            android:title="@+string/personalize" />
+    </PreferenceCategory>
+
+    <!-- ユーザプロファイルの設定 -->
+    <PreferenceCategory android:title="@+string/profile" >
+
+        <!-- 年齢 -->
+        <EditTextPreference
+            android:defaultValue="20"
+            android:enabled="true"
+            android:inputType="number"
+            android:key="age"
+            android:numeric="integer"
+            android:summary="@+string/age"
+            android:title="@+string/age" />
+
+        <!-- 性別 -->
+        <ListPreference
+            android:entries="@array/SEX"
+            android:entryValues="@array/SEX"
+            android:key="sex"
+            android:title="@+string/sex" />
+
+        <!-- ニックネーム -->
+        <EditTextPreference
+            android:key="nickName"
+            android:title="@+string/nickName" />
+
+        <!-- 血液型 -->
+        <ListPreference
+            android:dialogTitle="@+string/bloodType"
+            android:entries="@array/BLOODTYPE"
+            android:entryValues="@array/BLOODTYPE"
+            android:key="bloodType"
+            android:title="@+string/bloodType" />
+
+        <!-- 住んでいるところ -->
+        <ListPreference
+            android:dialogTitle="@+string/place"
+            android:entries="@array/PLACE"
+            android:entryValues="@array/PLACE"
+            android:key="place"
+            android:title="@+string/place" />
+
+        <!-- 星座 -->
+        <ListPreference
+            android:dialogTitle="@+string/constellation"
+            android:entries="@array/CONSTELLATION"
+            android:entryValues="@array/CONSTELLATION"
+            android:key="constellation"
+            android:title="@+string/constellation" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

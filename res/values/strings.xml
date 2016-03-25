@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ぼっちャット</string>
+
+    <!-- メイン画面 -->
+    <string name="defaultWord">こんにちわ</string>
+    <string name="submit_btn">こたえる</string>
+    <string name="kidoku">既読</string>
+    <string name="img_icon">icon</string>
+
+    <!-- 認証画面 -->
+    <string name="title_activity_oauth">docomoID認証</string>
+    <string name="auth_btn">docomoID 認証</string>
+    <string name="authRefresh_btn">docomoID 再認証</string>
+    
+    <!-- メニュー表示 -->
+    <string name="config">設定</string>
+    <string name="about">このアプリについて</string>
+    <string name="appInfo">これはCodezineのサンプルです</string>
+    
+    <!-- 設定画面 -->
+    <string name="appConfig">アプリ設定</string>
+    <string name="mode">モードの設定</string>
+    <string name="character">対話キャラクタの設定</string>
+    <string name="personalize">パーソナライズ機能</string>
+    <string name="profile">プロフィール設定</string>
+    <string name="age">年齢</string>
+    <string name="sex">性別</string>
+    <string name="nickName">ニックネーム</string>
+    <string name="bloodType">血液型</string>
+    <string name="place">住所</string>
+    <string name="constellation">星座</string>
+    
+    <!-- エラーメッセージ -->
+    <string name="sdkException">SDKException 発生</string>
+    <string name="serverException">ServerException 発生</string>
+
+</resources>

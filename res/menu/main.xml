@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!-- アプリ設定 メニュー -->
+    <item android:id="@+id/config_menu" android:title="@+string/config"></item>
+    
+    <!-- アプリ紹介 メニュー -->
+    <item android:id="@+id/about_menu" android:title="@+string/about"></item>
+    
+</menu>
